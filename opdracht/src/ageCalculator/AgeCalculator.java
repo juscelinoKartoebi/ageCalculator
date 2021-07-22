@@ -26,8 +26,12 @@ public class AgeCalculator {
 			
 		age = currentYear - dob;
 		
+		input.close();
+		
 		System.out.println("Your age is: "+ age);
 	}
+		
+	
 
 	}
 
